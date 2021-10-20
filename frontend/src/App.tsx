@@ -1,5 +1,12 @@
+import { LoginBox } from './components/LoginBox';
+
+import styles from './App.module.scss';
+
 export function App() {
   return (
-    <h1>Hello World with Vite</h1>
+    <main className={styles.contentWrapper}>
+      <div />
+      <LoginBox />
+    </main>
   )
 }
