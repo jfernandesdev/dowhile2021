@@ -3,6 +3,7 @@ import { AuthContext } from '../../contexts/auth';
 import { api } from '../../services/api';
 
 import { VscGithubInverted, VscSignOut } from 'react-icons/vsc';
+import sealIcon from '../../assets/seal.svg';
 import styles from './styles.module.scss';
 
 export function SendMessageForm() {
@@ -22,6 +23,8 @@ export function SendMessageForm() {
 
   return(
     <div className={styles.sendMessageFormWrapper}>
+      <img src={sealIcon} className={styles.sealIcon}/>
+
       <button 
         className={styles.signOutButton}
         onClick={signOut}
