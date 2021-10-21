@@ -34,6 +34,8 @@ export function AuthProvider(props: AuthProvider) {
       code: githubCode,
     })
 
+    console.log(response.data);
+
     const { token, user } = response.data;
 
     localStorage.setItem('@dowhile:token', token);
