@@ -44,7 +44,15 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 
 ### Desktop:
 
-### Mobile:
+|Home |Home - Logado
+| --- | --- |
+<img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-1.png" /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-2.png" /> 
+
+### App Mobile:
+
+| Splash | Home | Home - Logado | Enviando msg
+| --- | --- | --- | --- |
+<img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-1.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-2.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-3.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-4.png" width='275px' /> 
 
 ### Dê uma olhada como o projeto ficou! 👀
 
