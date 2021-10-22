@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "Do while 2021",
-    "slug": "app",
+    "name": "appdowhile2021",
+    "slug": "appdowhile2021",
     "version": "1.0.0",
+    "schema": "appdowhile2021",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
