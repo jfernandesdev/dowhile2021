@@ -9,6 +9,15 @@
     margin: 32px 0;
   }
 
+  @keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
   .messageList {
     list-style: none;
     display: flex;
@@ -19,6 +28,7 @@
 
     .message {
       max-width: 440px;
+      animation: fadein 1s ease-in;
 
       &:nth-child(2) {
         margin-left: 80px;

@@ -49,7 +49,7 @@ export function SendMessageForm() {
           id="message" 
           placeholder="Qual sua expectativa para o evento?"
           required
-          maxLength={250}
+          maxLength={140}
           onChange={event => setMessage(event.target.value)}
           value={message}
         />

@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import { api } from '../../services/api';
 
+import { MESSAGES_EXAMPLE } from '../../utils/messages';
+
 import logoImg from '../../assets/logo.svg';
 import styles from './styles.module.scss';
 
@@ -14,7 +16,7 @@ type Message = {
   };
 }
 
-const messagesQueue: Message[] = [];
+const messagesQueue: Message[] = MESSAGES_EXAMPLE;
 
 const socket = io('http://localhost:4000');
 
