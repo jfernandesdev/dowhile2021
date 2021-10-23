@@ -18,7 +18,7 @@ type Message = {
 
 const messagesQueue: Message[] = MESSAGES_EXAMPLE;
 
-const socket = io('http://localhost:4000');
+const socket = io('https://api-dowhile2021-jfernandesdev.herokuapp.com');
 
 socket.on('new_message', (newMessage: Message) => {
   messagesQueue.push(newMessage);
