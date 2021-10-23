@@ -9,7 +9,6 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 - [x] Rota para buscar as informações do usuário logado no github;
 - [x] Cadastro de novas mensagens;
 - [x] Listagem das mensagens em tempo real (socket.io);
-- [ ] Responsividade mobile (versão web) - em breve
 
 ## Tecnologias utilizadas: 🚀
 
@@ -27,7 +26,6 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 - HTML | 5
 - SASS | 1.43.2
 - ReactJs | ^17.0.0
-- Axios | ^0.23.0
 - Socket.io-client | ^4.3.2
 - Vite | ^2.6.4
 - Typescript | ^4.3.2 -D
@@ -36,7 +34,6 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 
 - React Native | sdk-42.0.0
 - Expo | ~42.0.1
-- Axios | ^0.23.0
 - Socket.io-client | ^4.3.2
 - Typescript | ~4.0.0 -D
 
