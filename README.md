@@ -56,7 +56,7 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 
 ### Dê uma olhada como o projeto ficou! 👀
 
-(Em breve ...)
+https://dowhile2021-jfernandesdev.vercel.app/
 
 <br>
 
