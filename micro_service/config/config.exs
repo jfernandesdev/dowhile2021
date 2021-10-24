@@ -17,6 +17,11 @@ config :micro_service, MicroServiceWeb.Endpoint,
   pubsub_server: MicroService.PubSub,
   live_view: [signing_salt: "7Ud8txJx"]
 
+config :micro_service, MicroService.Scheduler,
+  jobs: [
+    {"0 0 * * *", {MicroService.Tags.Count, :call, []}}
+  ]
+
 # Configures the mailer
 #
 # By default it uses the "Local" adapter which stores the emails

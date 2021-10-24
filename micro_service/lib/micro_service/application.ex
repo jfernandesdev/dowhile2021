@@ -15,9 +15,10 @@ defmodule MicroService.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: MicroService.PubSub},
       # Start the Endpoint (http/https)
-      MicroServiceWeb.Endpoint
+      MicroServiceWeb.Endpoint,
       # Start a worker by calling: MicroService.Worker.start_link(arg)
       # {MicroService.Worker, arg}
+      MicroService.Scheduler
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
