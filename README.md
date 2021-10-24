@@ -1,6 +1,6 @@
 # DoWhile 2021 <img src='https://github.com/jfernandesdev/dowhile2021/blob/e9dc38293a5833714a68c26a69634eed343dcf24/frontend/src/assets/favicon.png' width='27px' />
 
-Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão (no back-end), Diego Fernandes (no front-end) e Rodrigo Gonçalves (no app mobile). TEMA: DoWhile 2021: "Build the future" 🚀💬
+Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão (no back-end), Diego Fernandes (no front-end), Rodrigo Gonçalves (no app mobile) e Rafa Camarda (no micro-service). TEMA: DoWhile 2021: "Build the future" 🚀💬
 
 ### Descrição:
 
@@ -9,6 +9,7 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 - [x] Rota para buscar as informações do usuário logado no github;
 - [x] Cadastro de novas mensagens;
 - [x] Listagem das mensagens em tempo real (socket.io);
+- [x] Micro-serviço em Elixir, responsável por gerar a nuvem de tags das mensagens enviadas.
 
 ## Tecnologias utilizadas: 🚀
 
@@ -37,19 +38,26 @@ Projeto desenvolvido durante o NLW#Heat by Rocketseat instruído por Dani Leão 
 - Socket.io-client | ^4.3.2
 - Typescript | ~4.0.0 -D
 
+### Micro service
+
+- Elixir
+- Erlang
+- Phoenix
+- PostgreSQL
+
 ## Layout (by Tiago Luchtenberg)🤩
 
 ### Desktop:
 
-|Home |Home - Logado
-| --- | --- |
-<img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-1.png" /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-2.png" /> 
+| Home                                                                                                                                             | Home - Logado                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-1.png" /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-2.png" /> |
 
 ### App Mobile:
 
-| Splash | Home | Home - Logado | Enviando msg
-| --- | --- | --- | --- |
-<img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-1.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-2.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-3.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-4.png" width='275px' /> 
+| Splash                                                                                                                                                                | Home                                                                                                                                                                  | Home - Logado                                                                                                                                                         | Enviando msg                                                                                                                                                          |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-1.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-2.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-3.png" width='275px' /> | <img src="https://github.com/jfernandesdev/dowhile2021/blob/170b5eb99451069a7160ddd463f21f7947bbcd44/frontend/src/assets/layout/layout-mobile-4.png" width='275px' /> |
 
 ### Dê uma olhada como o projeto ficou! 👀
 
