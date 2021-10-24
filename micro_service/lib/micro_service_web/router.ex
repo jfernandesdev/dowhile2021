@@ -7,6 +7,8 @@ defmodule MicroServiceWeb.Router do
 
   scope "/api", MicroServiceWeb do
     pipe_through :api
+
+    post "/message", MessagesController, :create
   end
 
   # Enables LiveDashboard only for development
