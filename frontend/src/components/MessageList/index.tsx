@@ -61,7 +61,7 @@ export function MessageList() {
 
             <div className={styles.messageUser}>
               <div className={styles.userImage}>
-                <img src={message.user.avatar_url} />
+                {(message.user.avatar_url) ? <img src={message.user.avatar_url} /> : '';}
               </div>
               <span>{message.user.name}</span>
             </div>
